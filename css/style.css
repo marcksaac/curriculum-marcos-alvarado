@@ -1,0 +1,96 @@
+body {
+  background-image: url('/img/back.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.main-container{
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+}
+
+.text-xxs{
+	font-size: 0.5rem;
+}
+
+.text-xs{
+	font-size: 0.7rem;
+}
+
+.text-sm{
+	font-size: 0.9rem;
+}
+
+.text-md{
+	font-size: 1rem;
+}
+
+.text-lg{
+	font-size: 1.2rem;
+}
+
+.text-xl{
+	font-size: 1.4rem;
+}
+
+.align-center{
+	margin: 0 auto;
+}
+
+.click{
+	cursor: pointer;
+}
+
+.divImg {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: contain;
+}
+
+.grayscale {
+	opacity: 0.6;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+
+    -webkit-transition: all ease-in-out 0.3s; /* Safari */
+    transition: all ease-in-out 0.3s;
+}
+
+.grayscale:hover {
+	opacity: 1;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+.selectable {
+	cursor: pointer;
+    -webkit-transition: all ease-in-out 0.3s; /* Safari */
+    transition: all ease-in-out 0.3s;
+}
+
+.selectable:hover{
+	z-index: 2;
+    -ms-transform: scale(1.1, 1.1); /* IE 9 */
+    -webkit-transform: scale(1.1, 1.1); /* Safari */
+    transform: scale(1.1, 1.1);
+}
+
+.material-icons{
+	vertical-align: bottom;
+}
+
+.buttonLanguage{
+  position: fixed;
+  bottom: 5px;
+  right: 0px;
+  z-index: 3;
+}
+
+.rounded {
+  border-radius: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
