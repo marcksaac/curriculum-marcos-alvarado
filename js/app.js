@@ -8,7 +8,7 @@ app.config(function($mdThemingProvider) {
 
 app.config(function ($translateProvider) {
 	$translateProvider.useStaticFilesLoader({
-	    prefix: '/js/i18n/',
+	    prefix: 'js/i18n/',
 	    suffix: '.json'
 	  });
   	$translateProvider.preferredLanguage('es');
