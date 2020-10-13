@@ -5,12 +5,3 @@ app.config(function($mdThemingProvider) {
     .accentPalette('grey')
     .backgroundPalette('grey');
 });
-
-app.config(function ($translateProvider) {
-	$translateProvider.useStaticFilesLoader({
-	    prefix: '/cv-resources/i18n/',
-	    suffix: '.json'
-	  });
-  	$translateProvider.preferredLanguage('es');
-	$translateProvider.useSanitizeValueStrategy('sceParameters');
-});
