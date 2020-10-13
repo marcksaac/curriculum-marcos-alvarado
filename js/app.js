@@ -8,7 +8,7 @@ app.config(function($mdThemingProvider) {
 
 app.config(function ($translateProvider) {
 	$translateProvider.useStaticFilesLoader({
-	    prefix: '/cv-resources/js/i18n/',
+	    prefix: '/cv-resources/i18n/',
 	    suffix: '.json'
 	  });
   	$translateProvider.preferredLanguage('es');
